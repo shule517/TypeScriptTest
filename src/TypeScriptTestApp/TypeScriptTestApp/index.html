@@ -5,11 +5,24 @@
     <meta charset="utf-8" />
     <title>TypeScript HTML App</title>
     <link rel="stylesheet" href="app.css" type="text/css" />
+    <script src="http://code.createjs.com/easeljs-0.7.0.min.js"></script>
+    <script src="http://code.createjs.com/tweenjs-0.5.0.min.js"></script>
+    <script src="http://code.createjs.com/movieclip-0.7.0.min.js"></script>
     <script src="app.js"></script>
-</head>
-<body>
-    <h1>TypeScript HTML App</h1>
+    <style type="text/css">
+        #canvas {
+            display: block;
+            width: 600px;
+            margin-top: 40px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 0;
+            padding-right: 0;
+        }
+    </style>
 
-    <div id="content"></div>
+</head>
+<body style="background-color:#eeeeee">
+    <canvas id="canvas" width="600" height="200" style="background-color:#ffffff"></canvas>
 </body>
 </html>
